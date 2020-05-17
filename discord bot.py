@@ -23,6 +23,6 @@ async def on_message(message):
     if message.content.startswith("!경쟁2"):
         await message.channel.send("@here 경쟁전2채널에서 사람을 구합니다.")
 
+access_token = os.enciron["BOT_TOKEN"]
 
-
-client.run("NzExNTAzODg2MDYxNjY2MzA0.XsD9rw.GG37EryMmb6PXvMbxocdKxatb2c")
+client.run(access_token)
